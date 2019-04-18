@@ -1,34 +1,28 @@
-##[点我查看中文说明](https://github.com/dubuyuye/blog/blob/gh-pages/README_zh_CN.md)
+# BoHu 
 
-# Blog Address
+It's a simple jekyll blog theme. 
+  
+A style of ZhiHu - the best-known website to share knowledge in China.   
 
-<http://blog.rainyalley.com/>
+In the ZhiHu, you can learn knowledge from all over the world.   
+
+In the BoHu, you can share knowledge to all over the world!
+
+1. **Use paging as 1,2,3,4,5......**   
+1. **Searchable for blog.**    
+1. **Classification is supported.**   
+1. **Good compatibility on mobile devices.**    
+1. **Built-in wordart for English and Chinese.**   
+1. **Music player.**   
+**......**
+
+**Make it yours in under 10 minutes.**  
+
+# Author
+
+[Clark Zhao](http://zhaoyuxiang.cn)
 
 
-# Must Modify
+# License
 
-## 1.swiftype
-
-This service provides the on-site search function.
-
-Service address： <https://swiftype.com/>.
-
-After the setup is complete， you need to modify the `swiftype_searchId` in `_config.yml`.
-
-In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype_searchId`.
-
-```html
-<script type="text/javascript">
-...
-...
-  _st('install','swiftype_searchId','2.0.0');
-</script>
-```
-
-## 2.disqus
-
-This service provides the comment function.
-
-Service address： <https://disqus.com/>.
-
-After the setup is complete， you need to modify the `disqus_shortname` in `_config.yml`.
+Use MIT License.
